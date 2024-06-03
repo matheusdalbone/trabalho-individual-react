@@ -2,14 +2,10 @@ import React, { useEffect, useState } from "react";
 import styles from './styles.module.css'
 import TwitterLogo from '../../assets/twitter-logo.svg'
 import CloseButton from '../../assets/close-logo.svg'
-// import GoogleLogo from '../../assets/google-logo.svg'
-// import AppleLogo from '../../assets/apple-logo.svg'
 import * as PopUps from "../../components/Popup"
-// import * as Buttons from '../../components/Button'
-// import * as Inputs from '../../components/Input'
 import * as Forms from "../../components/Forms"
 
-function LoginOptions() {
+function Login() {
   const[email, setEmail] = useState("")
   const[password, setPassword] = useState("")
   const[naoEncontrado, setNaoEncontrado] = useState(false)
@@ -68,4 +64,4 @@ function LoginOptions() {
   </div>
 }
 
-export default LoginOptions
+export default Login
