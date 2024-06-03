@@ -1,0 +1,121 @@
+.title {
+  color: rgb(238, 238, 238);
+  font-size: 31px;
+  font-weight: 600;
+  align-self: flex-start;
+  margin: 26px 0px 10px 8px;
+}
+
+.textDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+
+.textDiv p {
+  color: rgb(225, 225, 225);
+  font-size: 18px;
+}
+
+.line {
+  width: 122px;
+  height: 0;
+  border: 1px solid #2e2e2e;
+  margin: 8px;
+  display:inline-block;
+}
+
+.inscreva {
+  color: #747474;
+  font-size: 16px;
+  margin: 46px 0px 0px 0px;
+  align-self: flex-start;
+}
+
+.inscreva span {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+.inscreva:hover span {
+  text-decoration: underline;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left  : .0938rem;
+}
+
+.loginForm h1{
+  margin: 26px 0px 30px 0px;
+}
+
+.loginForm input {
+  margin-bottom: 1.875rem;
+  width: 26.5rem;
+}
+
+.loginForm label {
+  color: #3b4145;
+  position: absolute;
+  left: .5rem;
+}
+
+.emailTitle {
+  top: 6.375rem;
+  font-size: .875rem;
+}
+
+.email {
+  top: 7.625rem;
+  font-size: 1.125rem;
+}
+
+.input {
+  pointer-events: none;
+  background-color: #101214;
+  border: none;
+  width: 17.5rem;
+  border-radius: .1875rem;
+  height: 2.8rem;
+  font-size: 1.0625rem;
+  padding: .5rem;
+  margin-bottom: .375rem;
+}
+
+.loginForm span {
+  color: #1DA1F2;
+  font-size: 13px;
+  position: relative;
+  top: -25px;
+  left: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.loginForm:hover span {
+  text-decoration: underline;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+  height: 18.75rem;
+  justify-content: end;
+}
+
+.buttonDiv p {
+  margin: 22px 0px 7px 0px;
+  font-size: 15.3px;
+}
+
+.buttonDiv button {
+  width: 27.3rem;
+  height: 3.375rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  position: relative;
+}

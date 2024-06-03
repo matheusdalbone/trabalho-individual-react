@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: TwitterChirp;
+  background-image: url(./twitterloginscreen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
