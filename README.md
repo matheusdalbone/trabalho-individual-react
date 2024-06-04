@@ -1,8 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Twitter Clone - Trabalho Individual 
+| Inspiração 1  | Inspiração 2 |
+|--|--|
+| <img src="inspiração/TwitterClone2.png" alt="Inspiração" style="width: 600px; display: flex;"> |  <img src="inspiração/TwitterClone1.png" alt="Inspiração" style="width: 600px; display: flex;">|
 
-Currently, two official plugins are available:
+## Investigação: O crime
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Trabalho
+- Uma página clonada
+
+### Investigação
+-  Trabalho individual;
+    
+-   Utilizar useState para o login e a senha;
+    
+-   Um botão que muda uma variável, e quando essa variável muda, utilize o useEffect para verificar se a senha e o login estão corretos;
+    
+-   Usar styles.module.css;
+-   Colocar no git, junto com o seu código, a imagem que foi usada para clone;
